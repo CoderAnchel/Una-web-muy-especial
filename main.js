@@ -183,3 +183,18 @@ btn21.addEventListener("click", () => {
 btn22.addEventListener("click", () => {
     letra22.classList.toggle("active")
 })
+
+const tapa = document.querySelector(".tapa");
+const card = document.querySelector(".card1");
+
+
+tapa.addEventListener("click", () => {
+    card.classList.toggle("act");
+})
+
+const tapa2 = document.querySelector(".tapa2");
+const card2 = document.querySelector(".card2");
+
+tapa2.addEventListener("click", () => {
+    card2.classList.toggle("act");
+})
